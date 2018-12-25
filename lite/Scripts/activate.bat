@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\Simon Okello\Documents\ANDELA\StackOverFlow-lite\lite"
+set "VIRTUAL_ENV=C:\Users\Cynthy\Documents\Andel\StackOverflow-lite\lite"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

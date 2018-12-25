@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Simon Okello\Documents\ANDELA\StackOverFlow-lite\lite"
+VIRTUAL_ENV="C:\Users\Cynthy\Documents\Andel\StackOverflow-lite\lite"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
