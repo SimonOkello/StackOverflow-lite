@@ -1,4 +1,4 @@
-#!"C:\Users\Simon Okello\Documents\ANDELA\StackOverFlow-lite\lite\Scripts\python.exe"
+#!c:\users\cynthy\documents\andel\stackoverflow-lite\lite\scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'autopep8==1.4.3','console_scripts','autopep8'
 __requires__ = 'autopep8==1.4.3'
 import re
