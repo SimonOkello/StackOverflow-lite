@@ -19,6 +19,5 @@ class Post(db.Model):
     date_posted = db.Column(db.DateTime, nullable=False, default = datetime.utcnow)
     user_id = db.Column(db.Integer, db.ForeignKey("user_id"), nullable=False)
    
-
     def __repr__(self):
         return f"User('{self.title}','{self.date_posted}')"
