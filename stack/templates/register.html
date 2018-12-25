@@ -1,5 +1,45 @@
 <!DOCTYPE html>
 {% extends "layout.html" %}
-{% block content %}
 
+{% block content %}
+<div class="container">
+    <form method="POST" action="">
+        {{form.hidden_tag()}}
+        <div class="form-group">
+            {{form.username.lablel(class = "form-control-label")}}
+            {{form.username(class = "form-control form-control")}}
+
+        </div>
+        <div class="form-group">
+            {{form.username.lablel(class = "form-control-label")}}
+            {{form.username(class = "form-control form-control")}}
+
+        </div>
+        <div class="form-group">
+            {{form.email.lablel(class = "form-control-label")}}
+            {{form.email(class = "form-control form-control")}}
+
+        </div>
+        <div class="form-group">
+            {{form.password.lablel(class = "form-control-label")}}
+            {{form.password(class = "form-control form-control")}}
+
+        </div>
+        <div class="form-group">
+            {{form.confirm_password.lablel(class = "form-control-label")}}
+            {{form.confirm_password(class = "form-control form-control")}}
+
+        </div>
+        <div class="form-group">
+                {{form.submit.lablel(class = "btn btn-outline-info")}}
+                
+    
+            </div>
+        
+    </form>
+    <div class="border-top pt-3">
+<small class="text muted"></small>
+<p>Do you have an account?<a href="{{url_for(login)}}">Login</a> </p>
+    </div>
+</div>
 {% endblock %}

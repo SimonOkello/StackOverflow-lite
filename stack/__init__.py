@@ -1,4 +1,5 @@
 from flask import Flask
+from forms import RegistrationForm, LoginForm
 
 
 

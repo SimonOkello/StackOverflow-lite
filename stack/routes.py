@@ -1,6 +1,6 @@
 from flask import url_for, render_template
 from stack import app
-#from stack.forms import RegistrationForm, LoginForm
+from stack.forms import RegistrationForm, LoginForm
 
 @app.route("/")
 def home():
@@ -8,7 +8,8 @@ def home():
 
 @app.route("/login")
 def login():
-    return render_template("login.html")
+    form = LoginForm()
+    return render_template("login.html", title = "Login", form = form)
 
 @app.route("/about")
 def about():
@@ -16,4 +17,5 @@ def about():
 
 @app.route("/register")
 def register():
-    return render_template("register.html")
+    form = RegistrationForm()
+    return render_template("register.html", title = "Register", form = form)
