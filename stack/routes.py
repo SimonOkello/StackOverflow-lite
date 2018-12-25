@@ -1,6 +1,8 @@
-from flask import url_for, render_template
+from flask import render_template, url_for
+
 from stack import app
-from stack.forms import RegistrationForm, LoginForm
+from stack.forms import LoginForm, RegistrationForm
+
 
 @app.route("/")
 def home():
